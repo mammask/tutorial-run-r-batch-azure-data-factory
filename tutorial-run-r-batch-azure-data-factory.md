@@ -42,7 +42,7 @@ Set up your Azure Storage account using the [Azure portal](https://docs.microsof
 
     ![](https://github.com/mammask/tutorial-run-r-batch-azure-data-factory/blob/master/samples/select-blob-storage-container.png?raw=true)
 
-3.  **Upload** &gt; **Files** &gt; iris.csv &gt; **Upload to folder** &gt; inputs. A new folder will be created even if it does not exist.
+3.  **Upload** &gt; **Files** &gt; iris.csv. Under the **Advanced** tab &gt; **Upload to folder** &gt; inputs. A new folder will be created even if it does not exist.
 
     ![](https://github.com/mammask/tutorial-run-r-batch-azure-data-factory/blob/master/samples/upload-to-blob-storage-container.png?raw=true)
 
@@ -119,7 +119,7 @@ Save the script as *runExample.R* and upload it to the **Azure Storage** contain
 
 ![](https://github.com/mammask/tutorial-run-r-batch-azure-data-factory/blob/master/samples/upload-r-script-to-blob-storage-container.PNG?raw=true)
 
-Run the scritp locally using either command prompt or terminal depending on your operating system.
+Run the script locally using either command prompt or terminal depending on your operating system.
 
 ``` bash
 Rscript runExample.R
@@ -233,7 +233,7 @@ Access the log files of the batch process to view bugs/ warnings produced by the
 
     ![](https://github.com/mammask/tutorial-run-r-batch-azure-data-factory/blob/master/samples/access-batch-jobs-pool-latest-task-wd-log.PNG?raw=true)
 
-6.  The **stder.txt** file is the logs file associated with the execution of the `R` script.
+6.  The **stderr.txt** file is the logs file associated with the execution of the `R` script.
 
     ![](https://github.com/mammask/tutorial-run-r-batch-azure-data-factory/blob/master/samples/access-batch-jobs-pool-latest-task-wd-r-log.PNG?raw=true)
 
